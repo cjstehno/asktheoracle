@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
       ),
-      home: const HomeScreen(title: 'Thus speaketh the Oracle'),
+      home: const HomeScreen(title: 'So speaketh the Oracle'),
     );
   }
 }

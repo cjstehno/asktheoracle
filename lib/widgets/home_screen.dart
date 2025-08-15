@@ -15,7 +15,7 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
-  Revelation _results = new Revelation("-", "-", "-", "-", "-");
+  Revelation _results = ask();
 
   void _incrementCounter() {
     setState(() {
@@ -37,13 +37,10 @@ class _HomeScreenState extends State<HomeScreen> {
             AnswerTile(answer: _results.answer),
             SymbolTile(symbolLabel: _results.symbolPrimary, symbolMeaning: _results.symbolSecondary),
             PositionTile(positionLabel: _results.positionPrimary, positionMeaning: _results.positionSecondary),
-            // Text(
-            //   '$_counter',
-            //   style: Theme.of(context).textTheme.headlineMedium,
-            // ),
           ],
         ),
       ),
+      bottomSheet: const Text("Inspired by https://www.bastionland.com/2020/12/ask-stars-minimal-solo-rpg.html"),
       floatingActionButton: FloatingActionButton(
         onPressed: _incrementCounter,
         tooltip: 'Increment',
