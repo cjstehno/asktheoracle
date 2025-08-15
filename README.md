@@ -1,16 +1,5 @@
 # asktheoracle
 
-A new Flutter project.
+A solo RPG oracle roller based on the one described by https://www.bastionland.com/2020/12/ask-stars-minimal-solo-rpg.html
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+I make no claims to creating this, only for creating an app to use it.
