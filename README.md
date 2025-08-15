@@ -4,6 +4,9 @@ A solo RPG oracle roller based on the one described by Chris McDowall in
 https://www.bastionland.com/2020/12/ask-stars-minimal-solo-rpg.html. I have no association or permission, this is 
 just an app for personal use, based on a public blog entry.
 
+![App Screenshot](asktheoracle-screen.png)
+
+
 ## Building
 To make a release build:
 
