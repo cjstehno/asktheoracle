@@ -10,11 +10,11 @@ class MyApp extends StatelessWidget {
 
   @override Widget build(final BuildContext context) {
     return MaterialApp(
-      title: 'Ask the Oracle',
+      title: 'The Oracle',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
       ),
-      home: const HomeScreen(title: 'Ask the Oracle'),
+      home: const HomeScreen(title: 'Thus speaketh the Oracle'),
     );
   }
 }

@@ -1,5 +1,8 @@
 import 'package:asktheoracle/models/revelation.dart';
 import 'package:asktheoracle/oracle.dart';
+import 'package:asktheoracle/widgets/answer_tile.dart';
+import 'package:asktheoracle/widgets/position_tile.dart';
+import 'package:asktheoracle/widgets/symbol_tile.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -31,12 +34,9 @@ class _HomeScreenState extends State<HomeScreen> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            const Text('So speaketh the Oracle...'),
-            Text(_results.answer),
-            Text(_results.symbolPrimary),
-            Text(_results.symbolSecondary),
-            Text(_results.positionPrimary),
-            Text(_results.positionSecondary),
+            AnswerTile(answer: _results.answer),
+            SymbolTile(symbolLabel: _results.symbolPrimary, symbolMeaning: _results.symbolSecondary),
+            PositionTile(positionLabel: _results.positionPrimary, positionMeaning: _results.positionSecondary),
             // Text(
             //   '$_counter',
             //   style: Theme.of(context).textTheme.headlineMedium,
