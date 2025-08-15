@@ -1,4 +1,4 @@
-import 'package:asktheoracle/widgets/home_screen.dart';
+import 'package:asktheoracle/screens/home_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -11,8 +11,9 @@ class MyApp extends StatelessWidget {
   @override Widget build(final BuildContext context) {
     return MaterialApp(
       title: 'The Oracle',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.brown),
       ),
       home: const HomeScreen(title: 'So speaketh the Oracle'),
     );

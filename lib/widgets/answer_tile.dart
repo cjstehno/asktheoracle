@@ -12,7 +12,7 @@ class AnswerTile extends StatelessWidget {
       height: 200.0,
       child: Card(
         elevation: 10,
-        color: Colors.cyan,
+        color: Colors.amberAccent,
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.center,

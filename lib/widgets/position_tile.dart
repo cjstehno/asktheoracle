@@ -17,7 +17,7 @@ class PositionTile extends StatelessWidget {
       height: 150.0,
       child: Card(
         elevation: 10,
-        color: Colors.cyan,
+        color: Colors.amberAccent.shade100,
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.center,
